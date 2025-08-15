@@ -154,19 +154,23 @@ main {
 }
 
 .Nav {
-    display: grid;
-    place-items: end center;
-    padding-block-start: var(--spacing-600);
+  display: grid;
+  place-items: end center;
+  padding-block-start: var(--spacing-600);
+
+  @media (width > 52rem) {
+    padding-block-start: var(--spacing-1000);
+  }
 }
 
 .Nav__link {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .Nav__logo {
-    inline-size: auto;
-    block-size: 1.75rem;
+  inline-size: auto;
+  block-size: 1.75rem;
 }
 
 .Header {
@@ -226,7 +230,7 @@ main {
 
     @media (width > 52rem) {
       inset-block-start: 0;
-      inset-inline-end: calc(50vi + 18rem);
+      inset-inline-end: calc(50vi + 17rem);
       background-image: url("./assets/desktop/image-hero-left.png");
     }
   }
@@ -235,7 +239,7 @@ main {
     display: none;
 
     @media (width > 52rem) {
-      inset-inline-start: calc(50vi + 18rem);
+      inset-inline-start: calc(50vi + 17rem);
       inset-block-end: 0;
       display: block;
       background-image: url("./assets/desktop/image-hero-right.png");
