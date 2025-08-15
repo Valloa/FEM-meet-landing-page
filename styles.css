@@ -203,6 +203,7 @@ main {
   @media (width > 52rem) {
     grid-template-columns: 1fr min(100%, 28rem) 1fr;
     row-gap: var(--spacing-400);
+    padding-block: var(--spacing-300);
   }
 
   &::before,
@@ -381,6 +382,8 @@ main {
 .Section__title {
   display: grid;
   gap: var(--spacing-200);
+  justify-self: center;
+    inline-size: min(100%, 28.5rem);
   text-align: center;
 
   span {
