@@ -383,7 +383,7 @@ main {
   display: grid;
   gap: var(--spacing-200);
   justify-self: center;
-    inline-size: min(100%, 28.5rem);
+  inline-size: min(100%, 28.5rem);
   text-align: center;
 
   span {
@@ -421,7 +421,7 @@ main {
   place-items: center;
   padding-block: var(--spacing-800);
   padding-inline: var(--spacing-400);
-  margin-block-start: 5rem;
+  margin-block-start: 6.75rem;
 
   background: url("./assets/desktop/image-footer.jpg") no-repeat center / cover;
 
